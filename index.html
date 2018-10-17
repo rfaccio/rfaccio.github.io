@@ -14,8 +14,11 @@
 <body>
     <a-scene embedded arjs='sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3;'>
         <a-assets>
-            <a-asset-item id="animated-asset" 
+            <a-asset-item id="duck-asset" 
                           src="models/duck/duck.gltf">
+            </a-asset-item>
+            <a-asset-item id="man-asset" 
+                          src="models/cesiumman/CesiumMan.gltf">
             </a-asset-item>
         </a-assets>
 
@@ -36,6 +39,13 @@
         <!-- <a-marker type='barcode' value='7'>
             <a-box position='0 0.5 0' color="red"></a-box>
         </a-marker> -->
+        <a-marker markerhandler cursor="rayOrigin: mouse" id="pattern-marker" type='pattern' url='markers/patt1.patt'>
+            <a-entity
+                id="duck-model"
+                gltf-model="#duck-asset"
+                scale="1">
+            </a-entity>
+        </a-marker>
 
         <a-marker markerhandler cursor="rayOrigin: mouse" id="animated-marker" type='barcode' value='6'>
             <a-entity
