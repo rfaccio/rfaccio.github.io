@@ -1,0 +1,313 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "Sketchup glTF Exporter v1.2.6 by Centaur"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "samplers": [
+    {}
+  ],
+  "nodes": [
+    {
+      "name": "root",
+      "children": [
+        1
+      ],
+      "mesh": 1
+    },
+    {
+      "name": "Stacy",
+      "mesh": 0
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.6524,
+          0.4647,
+          0.2674,
+          1
+        ],
+        "metallicFactor": 0.1,
+        "roughnessFactor": 0.9
+      },
+      "name": "Stacy_Skin",
+      "doubleSided": true
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.1332,
+          0.1332,
+          0.1332,
+          1
+        ],
+        "metallicFactor": 0.1,
+        "roughnessFactor": 0.9
+      },
+      "name": "Stacy_Shirt",
+      "doubleSided": true
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.7969,
+          0.0199,
+          0.021,
+          1
+        ],
+        "metallicFactor": 0.1,
+        "roughnessFactor": 0.9
+      },
+      "name": "Stacy_Shoe",
+      "doubleSided": true
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.7667,
+          0.7667,
+          0.7667,
+          1
+        ],
+        "metallicFactor": 0.1,
+        "roughnessFactor": 0.9
+      },
+      "name": "Stacy_Shoe_Laces_Sole",
+      "doubleSided": true
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0135,
+          0.0033,
+          0.0004,
+          1
+        ],
+        "metallicFactor": 0.1,
+        "roughnessFactor": 0.9
+      },
+      "name": "Stacy_Hair",
+      "doubleSided": true
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.017,
+          0.0385,
+          0.1113,
+          1
+        ],
+        "metallicFactor": 0.1,
+        "roughnessFactor": 0.9
+      },
+      "name": "Stacy_Pants",
+      "doubleSided": true
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.2176,
+          0.2176,
+          0.2176,
+          1
+        ],
+        "metallicFactor": 0.1,
+        "roughnessFactor": 0.9
+      },
+      "name": "default material",
+      "doubleSided": true
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1
+          },
+          "indices": 2,
+          "mode": 4,
+          "material": 0
+        },
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1
+          },
+          "indices": 3,
+          "mode": 4,
+          "material": 1
+        },
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1
+          },
+          "indices": 4,
+          "mode": 4,
+          "material": 2
+        },
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1
+          },
+          "indices": 5,
+          "mode": 4,
+          "material": 3
+        },
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1
+          },
+          "indices": 6,
+          "mode": 4,
+          "material": 4
+        },
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1
+          },
+          "indices": 7,
+          "mode": 4,
+          "material": 5
+        }
+      ]
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1
+          },
+          "indices": 8,
+          "mode": 4,
+          "material": 6
+        }
+      ]
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 1945,
+      "type": "VEC3",
+      "min": [
+        0.3384578127784913,
+        -3.721893761801375e-15,
+        -60.78313787114297
+      ],
+      "max": [
+        37.74224247628363,
+        5,
+        -0.2668357337253926
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1945,
+      "type": "VEC3",
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "max": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5123,
+      "count": 900,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5123,
+      "count": 1536,
+      "type": "SCALAR",
+      "byteOffset": 1800
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5123,
+      "count": 585,
+      "type": "SCALAR",
+      "byteOffset": 4872
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5123,
+      "count": 921,
+      "type": "SCALAR",
+      "byteOffset": 6042
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5123,
+      "count": 363,
+      "type": "SCALAR",
+      "byteOffset": 7884
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5123,
+      "count": 489,
+      "type": "SCALAR",
+      "byteOffset": 8610
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5123,
+      "count": 651,
+      "type": "SCALAR",
+      "byteOffset": 9588
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 23340,
+      "target": 34962,
+      "byteStride": 12,
+      "byteOffset": 0
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 23340,
+      "byteLength": 23340,
+      "target": 34962,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 46680,
+      "byteLength": 10892,
+      "target": 34963
+    }
+  ],
+  "buffers": [
+    {
+      "uri": "planta_data.bin",
+      "byteLength": 57572
+    }
+  ]
+}
