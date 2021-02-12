@@ -6,7 +6,20 @@ ul {
 }
 .header {
 	text-align: center;
-	font-family="Verdana";
+	font-family: "Verdana";
+}
+.svghedaer{
+	text-align: center;
+}
+.menor {
+    position: relative;
+	margin: auto;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 50%;
+	height: 100%;
 }
 li {
 	display: inline;
