@@ -1,6 +1,6 @@
 ul {
-	list-style-type: none;
-	margin: 10px 0;
+	display: list-item;
+	list-style: none;
 	padding: 0;
 	overflow: hidden;
 }
@@ -21,10 +21,21 @@ ul {
 	width: 50%;
 	height: 100%;
 }
+.menu-topo {
+	text-align: center;
+}
 li {
 	display: inline;
 }
 
 a {
+	color: #232323;
 	padding: 8px;
+	text-decoration: none;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #000000;
+}
+a:hover{
+	background-color: #00AAEE;
 }
