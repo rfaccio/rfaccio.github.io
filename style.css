@@ -25,12 +25,15 @@ ul {
 	text-align: center;
 }
 li {
-	display: inline;
+	display: block;
+	margin: 6px;
+}
+h2{
+ text-align: left;
 }
 
 a {
 	color: #232323;
-	padding: 3px;
 	text-decoration: none;
 }
 a:hover{
