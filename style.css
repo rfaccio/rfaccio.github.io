@@ -1,3 +1,18 @@
+html {
+	line-height: 1.15; /* 1 */
+	-webkit-text-size-adjust: 100%; /* 2 */
+}
+
+body {
+	margin: 0;
+	font-family: Georgia, serif;
+	font-size: 19px;
+	font-size: 1.2rem;
+	line-height: 1.7;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
 ul {
 	display: list-item;
 	list-style: none;
@@ -6,7 +21,7 @@ ul {
 }
 .header {
 	text-align: center;
-	font-family: "Verdana";
+	font-family: Georgia, serif;
 }
 .svghedaer{
 	text-align: center;
@@ -31,6 +46,10 @@ li {
 h2{
  text-align: left;
 }
+h1, h2, h3, h4, h5, h6 {
+	clear: both;
+	font-family: -apple-system, sans-serif;
+}
 
 a {
 	color: #232323;
@@ -38,4 +57,15 @@ a {
 }
 a:hover{
 	background-color: #00AAEE;
+}
+p {
+	margin: 0 0 1.5em 0;
+}
+
+body {
+	background: #fff;
+	/* Fallback for when there is no custom background color defined. */
+}
+html {
+	box-sizing: border-box;
 }
