@@ -6,6 +6,7 @@ ul {
 }
 .header {
 	text-align: center;
+	font-family="Verdana";
 }
 li {
 	display: inline;
