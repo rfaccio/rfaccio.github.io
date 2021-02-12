@@ -20,6 +20,7 @@ ul {
 	overflow: hidden;
 }
 .header {
+	margin-top: 15px;
 	text-align: center;
 	font-family: Georgia, serif;
 }
